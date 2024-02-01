@@ -1,0 +1,43 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: white;
+  row-gap: 1.5rem;
+
+  h6 {
+    font-weight: 800;
+    margin: 0;
+  }
+
+  button {
+    border: none;
+    color: #e31b23;
+    background: none;
+    cursor: pointer;
+  }
+
+  .captionBox {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 992px) {
+  .img {
+    width: 250px;
+    height: 140px;
+  }
+
+  h6,
+  button {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 993px) {
+  h6,
+  button {
+    font-size: 1.4rem;
+  }
+}

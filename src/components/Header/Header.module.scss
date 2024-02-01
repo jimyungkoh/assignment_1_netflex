@@ -1,0 +1,61 @@
+.header {
+  height: 144px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 32px;
+
+  li,
+  a,
+  button {
+    color: white;
+    font-weight: 700;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  button {
+    cursor: pointer;
+    border: none;
+    background: none;
+  }
+
+  .logo {
+    color: #e50914;
+    font-weight: 800;
+    letter-spacing: -2px;
+  }
+
+  > nav > ul {
+    display: flex;
+    column-gap: 2rem;
+    padding-left: 0;
+    list-style: none;
+  }
+
+  @media (max-width: 992px) {
+    li,
+    a,
+    button {
+      font-size: 17px;
+    }
+
+    .logo {
+      font-size: 36px;
+    }
+  }
+
+  @media (min-width: 993px) {
+    li,
+    a,
+    button {
+      font-size: 21px;
+    }
+
+    .logo {
+      font-size: 48px;
+    }
+  }
+}
